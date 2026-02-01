@@ -1,5 +1,8 @@
 📚 AI-Powered-Student-Performance-Analytics
 
+## Live Backend URL
+https://ai-powered-student-performance-1z8u.onrender.com
+
 This project is a Spring Boot–based backend system that analyzes student academic performance using AI-generated insights.
 Instead of exposing AI directly, the system integrates AI within custom REST APIs, ensuring better control, security, and stability.
 

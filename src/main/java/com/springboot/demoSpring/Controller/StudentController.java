@@ -16,6 +16,12 @@ public class StudentController {
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
     }
+
+    // test 
+    @GetMapping("/test")
+     public String test() {
+      return "Working fine ✅";
+     }
     // 🔐 Only ADMIN can create students
     @PostMapping
     @PreAuthorize("hasRole('ADMIN')")
